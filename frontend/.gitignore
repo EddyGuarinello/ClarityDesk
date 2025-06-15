@@ -1,1 +1,38 @@
+# Node.js
 node_modules/
+dist/
+
+# Vite
+.vite/
+.vite-cache/
+
+# Typescript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs / editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Teste / Coverage
+coverage/
+*.lcov
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Build tools
+.eslintcache

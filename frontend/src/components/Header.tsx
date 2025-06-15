@@ -49,16 +49,16 @@ const Header = ({ onLogout }: HeaderProps) => {
               <Button variant="ghost" className="relative h-8 w-8 rounded-full">
                 <Avatar className="h-8 w-8">
                   <AvatarImage src="/placeholder.svg" alt="User" />
-                  <AvatarFallback>JD</AvatarFallback>
+                  <AvatarFallback>EG</AvatarFallback>
                 </Avatar>
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56" align="end">
               <div className="flex items-center justify-start gap-2 p-2">
                 <div className="flex flex-col space-y-1 leading-none">
-                  <p className="font-medium">John Doe</p>
+                  <p className="font-medium">Eddy Guarinello</p>
                   <p className="w-[200px] truncate text-sm text-slate-600">
-                    john@claritydesk.com
+                    eddy@claritydesk.com
                   </p>
                 </div>
               </div>
